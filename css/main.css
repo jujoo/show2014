@@ -17,36 +17,7 @@ body,button,input,select,textarea {
 	color:#fff
 }
 
-/* p */
-/*
-p {
-	margin-bottom:30px;
-	font-family:"Lato",sans-serif;
-	letter-spacing:2px;
-	font-size:16px;
-	font-size:1.6rem;
-	line-height:20px;
-	line-height:2rem
-}
-
-@media (min-width: 768px) {
-	p {
-		font-size:18px;
-		font-size:1.8rem;
-		line-height:22px;
-		line-height:2.2rem
-	}
-}
-
-@media (min-width: 992px) {
-	p {
-		font-size:20px;
-		font-size:2rem;
-		line-height:26px;
-		line-height:2.6rem
-	}
-}
-*/
+/
 a {
 	text-decoration:none;
 	color:#4e4e4e;
@@ -273,7 +244,7 @@ ul li,ol li {
 .slide-1 .date-title{
 	color: #f9bf21;
 	margin-top: 50px;
-	margin-bottom:10px;
+	margin-bottom:20px;
 	text-align:center;
 	font-weight:700px;
 	font-size:15px;
@@ -285,20 +256,26 @@ ul li,ol li {
 		width:300px;
 		margin:0 auto;
 		margin-top:100px;
-		margin-bottom:30px;
+		margin-bottom:60px;
 		font-size:20px;
 		font-size:2rem
 	}
 }
+.slide-1 .date-line{
+	width: 50px;
+	height: 2px;
+	margin:0 auto;
+	background-color: #57636f;
+}
 .slide-1 .date {
 	color: #ffffff;
-	margin-top: 30px;
+	margin-top: 20px;
 	margin-bottom: 30px;
 	text-align:center;
 	font-family:"Lato",sans-serif;
 	/*letter-spacing:2px;*/
-	font-size:30px;
-	font-size:3rem;
+	font-size:25px;
+	font-size:2.5rem;
 	/*line-height:20px;
 	line-height:2rem;*/
 }
@@ -307,7 +284,7 @@ ul li,ol li {
 		font-size:50px;
 		font-size:5rem;
 		margin:0 auto;
-		margin-top:60px;
+		margin-top:40px;
 		margin-bottom:40px;
 		/*line-height:22px;
 		line-height:2.2rem;*/
@@ -318,7 +295,7 @@ ul li,ol li {
 		font-size:50px;
 		font-size:5rem;
 		margin:0 auto;
-		margin-top:80px;
+		margin-top:40px;
 		margin-bottom:40px;
 		/*line-height:26px;
 		line-height:2.6rem*/
@@ -374,7 +351,7 @@ ul li,ol li {
 
 /*장소*/
 .slide-2 {
-	background-color:#f7f7f7
+	background-color:#e7e7e7
 }
 .slide-2 img {
 	margin-top:90px;
@@ -418,8 +395,7 @@ ul li,ol li {
 }
 @media (min-width: 768px) {
 	.slide-2 .l-text{
-		margin-bottom:3px;
-		text-align:center;
+		margin-bottom:4px;
 		font-size:18px;
 		font-size:1.8rem;
 		line-height:22px;
@@ -428,7 +404,7 @@ ul li,ol li {
 }
 @media (min-width: 992px) {
 	.slide-2 .l-text{
-		margin-bottom:3px;
+		margin-bottom:4px;
 		text-align: left;
 		font-size:20px;
 		font-size:2rem;
