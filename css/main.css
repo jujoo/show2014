@@ -334,8 +334,8 @@ ul li,ol li {
 }
 @media (min-width: 768px) {
 	.slide-1 .date {
-		font-size:30px;
-		font-size:3rem;
+		font-size:50px;
+		font-size:5rem;
 		text-align:center;
 		margin:0 auto;
 		margin-top:60px;
@@ -371,7 +371,7 @@ ul li,ol li {
 	}
 }
 .slide-1 img {
-	width:633px;
+	/*width:633px;*/
 	height:auto;
 	display:block;
 	margin:0 auto;
