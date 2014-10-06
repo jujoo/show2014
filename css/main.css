@@ -302,17 +302,33 @@ ul li,ol li {
 }
 .slide-1 .date-title{
 	color: #f9bf21;
-	margin-top: 100px;
+	margin-top: 50px;
+	margin-bottom:10px;
+	text-align:center;
+	font-weight:700px;
+	font-size:15px;
+	font-size:1.5rem;
+	font-family:"Raleway",sans-serif;
+}
+@media (min-width: 768px) {
+	.slide-1 .date-title {
+		width:300px;
+		margin:0 auto;
+		margin-top:100px;
+		margin-bottom:30px;
+		font-size:20px;
+		font-size:2rem
+	}
 }
 .slide-1 .date {
 	color: #ffffff;
-	margin-top: 80px;
-	margin-bottom: 20px;
+	margin-top: 30px;
+	margin-bottom: 30px;
 	text-align:center;
 	font-family:"Lato",sans-serif;
 	letter-spacing:2px;
-	font-size:40px;
-	font-size:4rem;
+	font-size:30px;
+	font-size:3rem;
 	line-height:20px;
 	line-height:2rem;
 }
@@ -322,8 +338,8 @@ ul li,ol li {
 		font-size:3rem;
 		text-align:center;
 		margin:0 auto;
-		margin-top:50px;
-		margin-bottom:50px;
+		margin-top:60px;
+		margin-bottom:40px;
 		line-height:22px;
 		line-height:2.2rem;
 	}
@@ -334,18 +350,18 @@ ul li,ol li {
 		font-size:5rem;
 		text-align:center;
 		margin:0 auto;
-		margin-top:50px;
-		margin-bottom:50px;
+		margin-top:60px;
+		margin-bottom:40px;
 		line-height:26px;
 		line-height:2.6rem
 	}
 }
 .slide-1 .date-text{
-	margin-top: 50px;
+	margin-top: 20px;
 }
 @media screen and (max-width: 30.6em) {
 	.slide-1 .date-text {
-		width:400px;
+		width:300px;
 		height:auto;
 	}
 }
@@ -363,8 +379,9 @@ ul li,ol li {
 }
 
 .slide-1 .opening{
-	margin-top: 50px;
+	margin-top: 30px;
 	color: #dfdfdf;
+	padding-left: 20px;
 	margin-bottom:5px;
 	text-align:center;
 	font-family:"Lato",sans-serif;
@@ -374,7 +391,6 @@ ul li,ol li {
 }
 @media screen and (max-width: 30.6em) {
 	.slide-1 .opening {
-		width:400px;
 		height:auto;
 	}
 }
