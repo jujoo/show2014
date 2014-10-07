@@ -415,10 +415,113 @@ ul li,ol li {
 
 
 
+/*전시소개*/
+.slide-3 {
+	background-color:#ffffff;
+}
+
+.slide-3 .date-title{
+	color: #f9bf21;
+	margin-top: 50px;
+	margin-bottom:20px;
+	text-align:center;
+	font-weight:700px;
+	font-size:15px;
+	font-size:1.5rem;
+	font-family:"Raleway",sans-serif;
+}
+@media (min-width: 768px) {
+	.slide-3 .date-title {
+		width:300px;
+		margin:0 auto;
+		margin-top:300px;
+		margin-bottom:40px;
+		font-size:20px;
+		font-size:2rem
+	}
+}
+.slide-3 .date-line{
+	width: 50px;
+	height: 2px;
+	margin:0 auto;
+	background-color: #bfbfbf;
+}
+.slide-3 .abouttitle {
+	color: #5a6672;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	text-align:center;
+	font-family:"Lato",sans-serif;
+	/*letter-spacing:2px;*/
+	font-size:25px;
+	font-size:2.5rem;
+	/*line-height:20px;
+	line-height:2rem;*/
+}
+@media (min-width: 768px) {
+	.slide-3 .abouttitle {
+		font-size:50px;
+		font-size:5rem;
+		margin:0 auto;
+		margin-top:40px;
+		margin-bottom:40px;
+		/*line-height:22px;
+		line-height:2.2rem;*/
+	}
+}
+@media (min-width: 992px) {
+	.slide-3 .abouttitle {
+		font-size:50px;
+		font-size:5rem;
+		margin:0 auto;
+		margin-top:40px;
+		margin-bottom:40px;
+		/*line-height:26px;
+		line-height:2.6rem*/
+	}
+}
+
+.slide-3 .e-text {
+	width: 300px;
+	color:#5a6672;
+	font-size:15px;
+	font-size:1.5rem;
+	text-align: center;
+	margin:0 auto;
+}
+@media (min-width: 768px) {
+	.slide-3 .e-text{
+		font-size:18px;
+		font-size:1.8rem;
+		line-height:22px;
+		line-height:2.2rem
+	}
+}
+@media (min-width: 992px) {
+	.slide-3 .e-text{
+		margin-bottom:4px;
+		width:1000px;
+		font-size:20px;
+		font-size:2rem;
+		line-height:26px;
+		line-height:2.6rem
+	}
+}
 
 
 
 
+
+
+/*.slide-3 img {
+	height:80px;
+	width:80px;
+	display:block;
+	margin:0 auto
+}
+
+*/
+/*
 .slide-3 {
 	background-color:#333
 }
@@ -476,9 +579,11 @@ ul li,ol li {
 	line-height:22px;
 	line-height:2.2rem
 }
+*/
 .slide img {
 	max-width:100%
 }
+
 
 
 
