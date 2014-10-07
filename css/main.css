@@ -304,13 +304,13 @@ ul li,ol li {
 .slide-1 .date-text{
 	margin-top: 20px;
 }
-@media screen and (max-width: 30.6em) {
+@media (min-width: 768px) {
 	.slide-1 .date-text {
 		width:300px;
 		height:auto;
 	}
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
 	.slide-1 .date-text {
 		margin-top:150px;
 	}
@@ -384,6 +384,7 @@ ul li,ol li {
 	}
 }
 .slide-2 .l-text{
+	width:200px
 	margin-bottom:8px;
 	text-align:center;
 	color:#3c474d;
@@ -493,7 +494,7 @@ ul li,ol li {
 }
 
 .slide-3 .e-text {
-	width: 300px;
+	width: 250px;
 	color:#5a6672;
 	font-size:15px;
 	font-size:1.5rem;
