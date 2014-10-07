@@ -904,12 +904,26 @@ ul li,ol li {
 		line-height:2.6rem
 	}
 }
-.slide-5 footer{
+
+.slide-5 .e-subtext {
+	width: 250px;
+	margin-bottom: 20px;
 	color:#999999;
-	text-align: center;
+	font-size:13px;
+	font-size:1.3rem;
+	text-align: right;
+	margin:0 auto;
 }
-
-
+@media (min-width: 768px) {
+	.slide-5 .e-subtext{
+		width:500px
+		font-size:15px;
+		font-size:1.5rem;
+		text-align: center;
+		line-height:22px;
+		line-height:2.2rem
+	}
+}
 
 
 
