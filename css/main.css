@@ -304,13 +304,13 @@ ul li,ol li {
 .slide-1 .date-text{
 	margin-top: 20px;
 }
-@media (min-width: 768px) {
+@media screen and (max-width: 30.6em) {
 	.slide-1 .date-text {
 		width:300px;
 		height:auto;
 	}
 }
-@media (min-width: 992px) {
+@media (min-width: 768px) {
 	.slide-1 .date-text {
 		margin-top:150px;
 	}
@@ -522,7 +522,27 @@ ul li,ol li {
 		line-height:2.6rem
 	}
 }
+.slide-3 img{
+	width:250px;
+	position: absolute;
+	display:block;
+	margin-top:0;
+	margin-left: 0;
+}
 
+@media screen and (max-width: 30.6em) {
+	.slide-3 img {
+		width:180px;
+		height:auto;
+	}
+}
+@media (min-width: 768px) {
+	.slide-3 img {
+		width: 650px;
+		height:auto;
+		margin-top:0;
+	}
+}
 
 
 
