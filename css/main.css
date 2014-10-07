@@ -423,7 +423,7 @@ ul li,ol li {
 
 .slide-3 .date-title{
 	color: #f9bf21;
-	margin-top: 50px;
+	margin-top: 30px;
 	margin-bottom:20px;
 	text-align:center;
 	font-weight:700px;
@@ -433,7 +433,7 @@ ul li,ol li {
 }
 @media (min-width: 768px) {
 	.slide-3 .date-title {
-		width:300px;
+		width:100px;
 		margin:0 auto;
 		margin-top:100px;
 		margin-bottom:40px;
@@ -496,8 +496,8 @@ ul li,ol li {
 .slide-3 .e-text {
 	width: 250px;
 	color:#999999;
-	font-size:15px;
-	font-size:1.5rem;
+	font-size:13px;
+	font-size:1.3rem;
 	text-align: left;
 	margin:0 auto;
 }
@@ -804,7 +804,7 @@ ul li,ol li {
 }
 .slide-5 .date-title{
 	color: #f9bf21;
-	margin-top: 50px;
+	margin-top: 20px;
 	margin-bottom:20px;
 	text-align:center;
 	font-weight:700px;
@@ -814,7 +814,7 @@ ul li,ol li {
 }
 @media (min-width: 768px) {
 	.slide-5 .date-title {
-		width:300px;
+		width:100px;
 		margin:0 auto;
 		margin-top:100px;
 		margin-bottom:40px;
@@ -878,8 +878,8 @@ ul li,ol li {
 	width: 250px;
 	margin-bottom: 20px;
 	color:#999999;
-	font-size:15px;
-	font-size:1.5rem;
+	font-size:13px;
+	font-size:1.3rem;
 	text-align: left;
 	margin:0 auto;
 }
