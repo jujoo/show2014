@@ -434,12 +434,23 @@ ul li,ol li {
 	.slide-3 .date-title {
 		width:300px;
 		margin:0 auto;
+		margin-top:100px;
+		margin-bottom:40px;
+		font-size:20px;
+		font-size:2rem
+	}
+}
+@media (min-width: 992px) {
+	.slide-3 .date-title {
+		width:300px;
+		margin:0 auto;
 		margin-top:300px;
 		margin-bottom:40px;
 		font-size:20px;
 		font-size:2rem
 	}
 }
+
 .slide-3 .date-line{
 	width: 50px;
 	height: 2px;
@@ -486,13 +497,15 @@ ul li,ol li {
 	color:#5a6672;
 	font-size:15px;
 	font-size:1.5rem;
-	text-align: center;
+	text-align: left;
 	margin:0 auto;
 }
 @media (min-width: 768px) {
 	.slide-3 .e-text{
+		width:500px
 		font-size:18px;
 		font-size:1.8rem;
+		text-align: center;
 		line-height:22px;
 		line-height:2.2rem
 	}
@@ -500,9 +513,10 @@ ul li,ol li {
 @media (min-width: 992px) {
 	.slide-3 .e-text{
 		margin-bottom:4px;
-		width:1000px;
+		width:1100px;
 		font-size:20px;
 		font-size:2rem;
+		text-align: center;
 		line-height:26px;
 		line-height:2.6rem
 	}
