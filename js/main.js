@@ -169,6 +169,9 @@
             case 5 :
                 $(this).children().append("<div></div>");
             break;
+            case 6 :
+                $(this).children().append("<div></div>");
+            break;
         }
     });
     /*-----  End of Navigation  ------*/
