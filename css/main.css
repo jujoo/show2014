@@ -48,68 +48,6 @@ ul li,ol li {
 	margin:5px 0
 }
 
-/* Home 섹션의 h1과 p는 필요 없어진다 */
-/* .home h1 {
-	margin-top:40px;
-	margin-bottom:40px;
-	text-align:center;
-	color:#4e4e4e;
-	font-family:"Raleway",sans-serif;
-	font-weight:700;
-	text-transform:uppercase;
-	letter-spacing:0.1em;
-	font-size:28px;
-	font-size:2.8rem
-}
-@media (min-width: 768px) {
-	.home h1 {
-	margin-top:60px;
-	margin-bottom:60px;
-	font-size:48px;
-	font-size:4.8rem
-	}
-}
-@media (min-width: 992px) {
-	.home h1 {
-	margin-top:200px;
-	margin-bottom:80px;
-	font-size:72px;
-	font-size:7.2rem
-	}
-}
-
-.home p {
-	margin-bottom:60px;
-	padding:0 15px;
-	text-align:center;
-	color:#4e4e4e;
-	font-family:"Raleway",sans-serif;
-	font-weight:600;
-	text-transform:uppercase;
-	letter-spacing:0.05em;
-	font-size:15px;
-	font-size:1.5rem;
-	line-height:20px;
-	line-height:2rem
-}
-@media (min-width: 768px) {
-	.home p {
-	padding:0;
-	margin-bottom:50px;
-	font-size:17px;
-	font-size:1.7rem;
-	line-height:24px;
-	line-height:2.4rem
-	}
-}
-@media (min-width: 1200px) {
-	.home p {
-	margin-bottom:100px
-	}
-}
-*/
-
-
 .main {
 	height: 100%;
 }
@@ -528,11 +466,12 @@ ul li,ol li {
 	display:block;
 	margin-top:0;
 	margin-left: 0;
+	height:auto;
 }
 
 @media screen and (max-width: 30.6em) {
 	.slide-3 img {
-		width:200px;
+		width:400px;
 		height:auto;
 	}
 }
@@ -551,7 +490,7 @@ ul li,ol li {
 
 
 
-/* s : Contact 섹션 */
+/* s : Contact 섹션 
 .contact {
 	background-color:#333
 }
@@ -794,8 +733,136 @@ ul li,ol li {
 }
 .contact .social .instagrem:hover {
 	background-color:#3f729b
-}
+}*/
 /* e : Contact 섹션 */
+
+/*졸준위 인사말*/
+
+.slide-4 img{
+	position: absolute;
+	/*width:auto;
+	height: auto;*/
+	display: block;
+	margin:0 auto;
+	margin-top:0;
+	margin-left: 0;
+	/*background-color:#ffffff;*/
+}
+@media screen and (max-width: 30.6em) {
+	.slide-4 img {
+		/*width:500px;*/
+		/*height:auto;*/
+	}
+}
+@media (min-width: 768px) {
+	.slide-4 img {
+		margin-top:0;
+		/*width: 100%*/
+	}
+}
+
+.slide-4 .date-title{
+	color: #f9bf21;
+	margin-top: 20px;
+	margin-bottom:20px;
+	text-align:center;
+	font-weight:700px;
+	font-size:15px;
+	font-size:1.5rem;
+	font-family:"Raleway",sans-serif;
+}
+@media (min-width: 768px) {
+	.slide-4 .date-title {
+		width:100px;
+		margin:0 auto;
+		margin-top:100px;
+		margin-bottom:40px;
+		font-size:20px;
+		font-size:2rem
+	}
+}
+@media (min-width: 992px) {
+	.slide-4 .date-title {
+		width:300px;
+		margin:0 auto;
+		margin-top:300px;
+		margin-bottom:40px;
+		font-size:20px;
+		font-size:2rem
+	}
+}
+
+.slide-4 .date-line{
+	width: 50px;
+	height: 2px;
+	margin:0 auto;
+	background-color: #bfbfbf;
+}
+.slide-4 .abouttitle {
+	color: #5a6672;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	text-align:center;
+	font-family:"Lato",sans-serif;
+	/*letter-spacing:2px;*/
+	font-size:25px;
+	font-size:2.5rem;
+	/*line-height:20px;
+	line-height:2rem;*/
+}
+@media (min-width: 768px) {
+	.slide-4 .abouttitle {
+		font-size:50px;
+		font-size:5rem;
+		margin:0 auto;
+		margin-top:40px;
+		margin-bottom:40px;
+		/*line-height:22px;
+		line-height:2.2rem;*/
+	}
+}
+@media (min-width: 992px) {
+	.slide-4 .abouttitle {
+		font-size:50px;
+		font-size:5rem;
+		margin:0 auto;
+		margin-top:40px;
+		margin-bottom:40px;
+		/*line-height:26px;
+		line-height:2.6rem*/
+	}
+}
+.slide-4 .e-text {
+	width: 250px;
+	margin-bottom: 20px;
+	color:#999999;
+	font-size:13px;
+	font-size:1.3rem;
+	text-align: left;
+	margin:0 auto;
+}
+@media (min-width: 768px) {
+	.slide-4 .e-text{
+		width:500px
+		font-size:18px;
+		font-size:1.8rem;
+		text-align: center;
+		line-height:22px;
+		line-height:2.2rem
+	}
+}
+@media (min-width: 992px) {
+	.slide-4 .e-text{
+		margin-bottom:30px;
+		width:1000px;
+		font-size:20px;
+		font-size:2rem;
+		text-align: center;
+		line-height:26px;
+		line-height:2.6rem
+	}
+}
+
 
 
 /*교수인사말*/
@@ -1117,14 +1184,14 @@ ul li,ol li {
 .cbp-qtrotator .cbp-qtcontent:after {
 	clear:both
 }
-.cbp-qtprogress {
+/*.cbp-qtprogress {
 	position:absolute;
 	background:#f1c40f;
 	height:5px;
 	width:0%;
 	bottom:0;
 	z-index:1000
-}
+}*/
 .cbp-qtrotator blockquote {
 	margin:0;
 	padding:0
