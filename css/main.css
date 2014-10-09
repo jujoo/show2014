@@ -29,12 +29,12 @@ a {
 
 a:hover {
 	color:#f1c40f;
-	text-decoration:none
+	text-decoration:none;
 }
 
 
 b {
-	font-weight:700
+	font-weight:700;
 }
 
 ul,ol {
@@ -322,7 +322,7 @@ ul li,ol li {
 	}
 }
 .slide-2 .l-text{
-	width:200px
+	/*width:200px;*/
 	margin-bottom:8px;
 	text-align:center;
 	color:#3c474d;
@@ -348,7 +348,7 @@ ul li,ol li {
 		font-size:20px;
 		font-size:2rem;
 		line-height:26px;
-		line-height:2.6rem
+		line-height:2.6rem;
 	}
 }
 
@@ -376,7 +376,7 @@ ul li,ol li {
 		margin-top:100px;
 		margin-bottom:40px;
 		font-size:20px;
-		font-size:2rem
+		font-size:2rem;
 	}
 }
 @media (min-width: 992px) {
@@ -441,7 +441,7 @@ ul li,ol li {
 }
 @media (min-width: 768px) {
 	.slide-3 .e-text{
-		width:500px
+		width:500px;
 		font-size:18px;
 		font-size:1.8rem;
 		text-align: center;
@@ -482,262 +482,9 @@ ul li,ol li {
 		margin-top:0;
 	}
 }
-.slide img {
-	max-width:100%
-}
 
-
-
-
-
-/* s : Contact 섹션 
-.contact {
-	background-color:#333
-}
-.contact .contact-aside p {
-	margin-top:10px;
-	margin-bottom:0;
-	padding:0 40px
-}
-@media (min-width: 768px) {
-	.contact .contact-aside p {
-	margin-top:20px
-	}
-}
-@media (min-width: 992px) {
-	.contact .contact-aside p {
-	margin-top:40px
-	}
-}
-.contact #map-canvas {
-	height:100px
-}
-@media (min-width: 768px) {
-	.contact #map-canvas {
-	height:200px
-	}
-}
-@media (min-width: 992px) {
-	.contact #map-canvas {
-	margin-bottom:20px;
-	height:300px
-	}
-}
-.contact h2 {
-	margin-top:50px;
-	text-transform:uppercase;
-	letter-spacing:0.1em;
-	text-align:center;
-	font-size:26px;
-	font-size:2.6rem
-}
-@media (min-width: 768px) {
-	.contact h2 {
-	margin-top:100px;
-	font-size:38px;
-	font-size:3.8rem
-	}
-}
-.contact p {
-	padding:0 20%;
-	text-align:left;
-	text-transform:none
-}
-@media (min-width: 768px) {
-	.contact p {
-	margin-top:20px;
-	margin-bottom:30px;
-	padding:0
-	}
-}
-.contact .newsletter {
-	width:250px;
-	margin:0 auto
-}
-@media (min-width: 768px) {
-	.contact .newsletter {
-	width:370px
-	}
-}
-@media (min-width: 992px) {
-	.contact .newsletter {
-	width:420px
-	}
-}
-@media (min-width: 1200px) {
-	.contact .newsletter {
-	margin-top:20px
-	}
-}
-.contact input,.contact textarea {
-	padding:20px;
-	border:0px solid transparent;
-	margin-left:25px;
-	width:175px;
-	height:30px;
-	float:left;
-	background-color:#ecf0f1;
-	color:#333;
-	-webkit-box-shadow:0 0 0 #000;
-	-moz-box-shadow:0 0 0 #000;
-	box-shadow:0 0 0 #000;
-	font-size:18px;
-	font-size:1.8rem;
-	-webkit-border-radius:0;
-	-moz-border-radius:0;
-	border-radius:0;
-	font-size:18px;
-	font-size:1.8rem
-}
-@media (min-width: 768px) {
-	.contact input,.contact textarea {
-	margin-left:0;
-	font-size:28px;
-	font-size:2.8rem;
-	height:60px;
-	width:100%
-	}
-}
-.contact textarea {
-	height:40px;
-	font-size:12px;
-	font-size:1.2rem;
-	margin-bottom:20px
-}
-@media (min-width: 768px) {
-	.contact textarea {
-	height:100px
-	}
-}
-@media (min-width: 992px) {
-	.contact textarea {
-	height:135px
-	}
-}
-.contact input {
-	text-align:center
-}
-.contact input[type=text]:focus,.contact textarea[type=text]:focus {
-	border:0px solid transparent;
-	-webkit-box-shadow:0 0 0 #000;
-	-moz-box-shadow:0 0 0 #000;
-	box-shadow:0 0 0 #000;
-	outline:none
-}
-.contact .btn-signup {
-	float:left;
-	height:35px;
-	width:45px;
-	-webkit-border-radius:0;
-	-moz-border-radius:0;
-	border-radius:0;
-	background-color:#f1c40f;
-	-webkit-transition:all,300ms;
-	-moz-transition:all,300ms;
-	-o-transition:all,300ms;
-	transition:all,300ms
-}
-@media (min-width: 768px) {
-	.contact .btn-signup {
-	width:100%;
-	height:55px
-	}
-}
-.contact .btn-signup:hover {
-	color:#fff;
-	background-color:#e3b90d
-}
-.contact .entypo-mail {
-	font-size:18px;
-	font-size:1.8rem;
-	line-height:32px;
-	line-height:3.2rem
-}
-@media (min-width: 768px) {
-	.contact .entypo-mail {
-	font-size:30px;
-	font-size:3rem;
-	line-height:40px;
-	line-height:4rem
-	}
-}
-.contact .social {
-	margin:0 auto;
-	margin-top:10px
-}
-@media (min-width: 768px) {
-	.contact .social {
-	margin-top:20px
-	}
-}
-.contact .social ul {
-	text-align:center;
-	padding:0
-}
-.contact .social li {
-	display:inline-block;
-	list-style:none
-}
-.contact .social .social-item {
-	margin:5px;
-	border:solid 0px transparent;
-	text-align:center;
-	display:block;
-	width:30px;
-	height:30px;
-	background-color:#444;
-	font-size:18px;
-	font-size:1.8rem;
-	line-height:32px;
-	line-height:3.2rem;
-	-webkit-transition:all,300ms;
-	-moz-transition:all,300ms;
-	-o-transition:all,300ms;
-	transition:all,300ms
-}
-.contact .social .social-item:hover {
-	color:#fff
-}
-@media (min-width: 768px) {
-	.contact .social .social-item {
-	width:40px;
-	height:40px;
-	font-size:24px;
-	font-size:2.4rem;
-	line-height:34px;
-	line-height:3.4rem
-	}
-}
-@media (min-width: 992px) {
-	.contact .social .social-item {
-	width:60px;
-	height:60px;
-	font-size:30px;
-	font-size:3rem;
-	line-height:60px;
-	line-height:6rem
-}
-	
-}
-.contact .social .facebook:hover {
-	background-color:#3b5998
-}
-.contact .social .twitter:hover {
-	background-color:#00acee
-}
-.contact .social .pinterest:hover {
-	background-color:#c8232c
-}
-.contact .social .dribbble:hover {
-	background-color:#ea4c89
-}
-.contact .social .instagrem:hover {
-	background-color:#3f729b
-}*/
-/* e : Contact 섹션 */
 
 /*졸준위 인사말*/
-
 .slide-4 img{
 	position: absolute;
 	/*width:auto;
@@ -785,13 +532,12 @@ ul li,ol li {
 	.slide-4 .date-title {
 		width:300px;
 		margin:0 auto;
-		margin-top:300px;
+		margin-top:200px;
 		margin-bottom:40px;
 		font-size:20px;
 		font-size:2rem
 	}
 }
-
 .slide-4 .date-line{
 	width: 50px;
 	height: 2px;
@@ -843,7 +589,7 @@ ul li,ol li {
 }
 @media (min-width: 768px) {
 	.slide-4 .e-text{
-		width:500px
+		width:500px;
 		font-size:18px;
 		font-size:1.8rem;
 		text-align: center;
@@ -899,7 +645,6 @@ ul li,ol li {
 		font-size:2rem
 	}
 }
-
 .slide-5 .date-line{
 	width: 50px;
 	height: 2px;
@@ -940,7 +685,6 @@ ul li,ol li {
 		line-height:2.6rem*/
 	}
 }
-
 .slide-5 .e-text {
 	width: 250px;
 	margin-bottom: 20px;
@@ -952,7 +696,7 @@ ul li,ol li {
 }
 @media (min-width: 768px) {
 	.slide-5 .e-text{
-		width:500px
+		width:500px;
 		font-size:18px;
 		font-size:1.8rem;
 		text-align: center;
@@ -971,7 +715,6 @@ ul li,ol li {
 		line-height:2.6rem
 	}
 }
-
 .slide-5 .e-subtext {
 	width: 250px;
 	margin-bottom: 20px;
@@ -983,7 +726,7 @@ ul li,ol li {
 }
 @media (min-width: 768px) {
 	.slide-5 .e-subtext{
-		width:500px
+		width:500px;
 		font-size:15px;
 		font-size:1.5rem;
 		text-align: center;
@@ -992,6 +735,40 @@ ul li,ol li {
 	}
 }
 
+/*coming soon*/
+.slide-6 .e-comingback {
+	/*height: 100%;*/
+	position: absolute;
+	display: block;
+	margin:0 auto;
+	margin-top:0;
+	margin-left: 0;
+}
+.slide-6 .e-coming {
+	width:200px;
+	height:auto;
+	display:block;
+	/*margin:0 auto;*/
+	/*margin-top:0;*/
+	/* border: 1px solid red; */
+	box-sizing: border-box;
+}
+@media screen and (max-width: 30.6em) {
+	.slide-6 .e-coming {
+		width:180px;
+		height:auto;
+	}
+}
+@media (min-width: 768px) {
+	.slide-6 .e-coming {
+		margin-top:200px;
+	}
+}
+
+
+.slide img {
+	max-width:100%
+}
 
 
 /* s : 스크롤 네비게이션 */
