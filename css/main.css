@@ -177,7 +177,7 @@ ul li,ol li {
 
 /*전시일정*/
 .slide-1 {
-	background-color:#3b4b5a
+	background-color:#3b4b5a;
 }
 .slide-1 .date-title{
 	color: #f9bf21;
@@ -489,29 +489,22 @@ ul li,ol li {
 	position: absolute;
 	/*width:auto;
 	height: auto;*/
-	display: block;
+	/*display: block;*/
+	bottom: 0;
+	/*left: 0;*/
+	/*right: 0;*/
+	/*max-height: 100%;*/
+	max-width: 100%;
 	margin:0 auto;
-	margin-top:0;
+	margin-bottom:0;
 	margin-left: 0;
-	/*background-color:#ffffff;*/
+	vertical-align: middle; 
+	display: inline-block;
 }
-@media screen and (max-width: 30.6em) {
-	.slide-4 img {
-		/*width:500px;*/
-		/*height:auto;*/
-	}
-}
-@media (min-width: 768px) {
-	.slide-4 img {
-		margin-top:0;
-		/*width: 100%*/
-	}
-}
-
 .slide-4 .date-title{
 	color: #f9bf21;
 	margin-top: 20px;
-	margin-bottom:20px;
+	margin-bottom:15px;
 	text-align:center;
 	font-weight:700px;
 	font-size:15px;
@@ -523,17 +516,17 @@ ul li,ol li {
 		width:100px;
 		margin:0 auto;
 		margin-top:100px;
-		margin-bottom:40px;
+		margin-bottom:30px;
 		font-size:20px;
 		font-size:2rem
 	}
 }
 @media (min-width: 992px) {
 	.slide-4 .date-title {
-		width:300px;
+		/*width:300px;*/
 		margin:0 auto;
-		margin-top:200px;
-		margin-bottom:40px;
+		margin-top:100px;
+		margin-bottom:30px;
 		font-size:20px;
 		font-size:2rem
 	}
@@ -546,8 +539,8 @@ ul li,ol li {
 }
 .slide-4 .abouttitle {
 	color: #5a6672;
-	margin-top: 20px;
-	margin-bottom: 30px;
+	margin-top: 15px;
+	margin-bottom: 15px;
 	text-align:center;
 	font-family:"Lato",sans-serif;
 	/*letter-spacing:2px;*/
@@ -561,8 +554,8 @@ ul li,ol li {
 		font-size:50px;
 		font-size:5rem;
 		margin:0 auto;
-		margin-top:40px;
-		margin-bottom:40px;
+		margin-top:30px;
+		margin-bottom:30px;
 		/*line-height:22px;
 		line-height:2.2rem;*/
 	}
@@ -572,8 +565,8 @@ ul li,ol li {
 		font-size:50px;
 		font-size:5rem;
 		margin:0 auto;
-		margin-top:40px;
-		margin-bottom:40px;
+		margin-top:30px;
+		margin-bottom:30px;
 		/*line-height:26px;
 		line-height:2.6rem*/
 	}
@@ -736,39 +729,32 @@ ul li,ol li {
 }
 
 /*coming soon*/
-.slide-6 .e-comingback {
-	/*height: 100%;*/
-	position: absolute;
-	display: block;
-	margin:0 auto;
-	margin-top:0;
-	margin-left: 0;
+.slide-6{
+	background-color: #3b4b5a;
 }
-.slide-6 .e-coming {
-	width:200px;
+.slide-6 img {
 	height:auto;
 	display:block;
-	/*margin:0 auto;*/
+	margin:0 auto;
 	/*margin-top:0;*/
-	/* border: 1px solid red; */
 	box-sizing: border-box;
 }
 @media screen and (max-width: 30.6em) {
-	.slide-6 .e-coming {
+	.slide-6 img {
 		width:180px;
 		height:auto;
 	}
 }
 @media (min-width: 768px) {
-	.slide-6 .e-coming {
-		margin-top:200px;
+	.slide-6 img {
+		/*margin-top:0;*/
 	}
 }
-
 
 .slide img {
 	max-width:100%
 }
+
 
 
 /* s : 스크롤 네비게이션 */
