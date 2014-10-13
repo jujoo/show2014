@@ -177,7 +177,7 @@ ul li,ol li {
 }
 
 
-/*전시일정*/
+/*---------------------------------------전시일정*/
 .slide-1 {
 	display: table;
 }
@@ -300,10 +300,10 @@ ul li,ol li {
 }
 
 
-/*장소*/
+/*---------------------------------------장소*/
 .slide-2 {
 	display: table;
-	background-color:#e7e7e7;
+	background-color:#fbfbfb;
 }
 .slide-2 .container {
 	display: table-cell;
@@ -344,21 +344,6 @@ ul li,ol li {
 		margin-top:120px;
 	}
 }
-/*.slide-2 .location{
-	margin-top:50px;
-}
-@media (min-width: 768px) {
-	.slide-2 .location {
-		height:auto;
-	}
-}
-@media (min-width: 992px) {
-	.slide-2 .location{
-		margin-top:120px;
-		margin-left: 200px
-	}
-}*/
-
 /* s : 전시장소 설명 */
 .slide-2 ul.location-text {
     list-style: none;
@@ -405,7 +390,7 @@ ul li,ol li {
 }
 
 
-/*전시소개*/
+/* ---------------------------------------전시소개*/
 .slide-3 {
 	display: table;
 	background-color:#ffffff;
@@ -415,10 +400,6 @@ ul li,ol li {
 	vertical-align: middle;
 	/*padding-bottom: 100px;*/
 }
-/*.slide-3 {
-	background-color:#ffffff;
-}
-*/
 .slide-3 .date-title{
 	color: #f9bf21;
 	/*margin-top: 30px;*/
@@ -487,12 +468,12 @@ ul li,ol li {
 	width: 235px;
 	margin:0 auto;
 	margin-bottom:8px;
-	color:#999999;
+	color:#828282;
 	font-family: "Nanum Gothic", NanumGothic, 나눔고딕, 돋움, "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size:13px;
 	/*font-size:1.3rem;*/
 
-	text-align: left;
+/*	text-align: left;*/
 	text-align: justify;
 }
 @media (min-width: 768px) {
@@ -516,31 +497,7 @@ ul li,ol li {
 		line-height:2.6rem
 	}
 }
-/*.slide-3 img{
-	width:300px;
-	position: absolute;
-	display:block;
-	margin-top:0;
-	margin-left: 0;
-	height:auto;
-}
-
-@media screen and (max-width: 30.6em) {
-	.slide-3 img {
-		width:400px;
-		height:auto;
-	}
-}
-@media (min-width: 768px) {
-	.slide-3 img {
-		width: 650px;
-		height:auto;
-		margin-top:0;
-	}
-}
-
-*/
-/*졸준위 인사말*/
+/*---------------------------------------졸준위 인사말*/
 .slide-4 img{
 	position: absolute;
 	/*width:auto;
@@ -557,18 +514,15 @@ ul li,ol li {
 	vertical-align: middle; 
 	display: inline-block;
 }
-.slide-4 .container{
-	overflow: hidden;
-}
 .slide-4 .date-title{
 	color: #f9bf21;
 	margin-top: 20px;
-	margin-bottom:15px;
+	margin-bottom:10px;
 	text-align:center;
 	font-weight:700px;
 	font-size:15px;
 	font-size:1.5rem;
-	font-family: "Nanum Gothic", NanumGothic, 나눔고딕, 돋움, "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "Nanum Gothic", NanumGothic, 나눔고딕, 돋움 ;
 }
 @media (min-width: 768px) {
 	.slide-4 .date-title {
@@ -598,10 +552,10 @@ ul li,ol li {
 }
 .slide-4 .abouttitle {
 	color: #5a6672;
-	margin-top: 15px;
-	margin-bottom: 10px;
+	margin-top: 10px;
+	margin-bottom: 15px;
 	text-align:center;
-	font-family:"Lato",sans-serif;
+	font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
 	/*letter-spacing:2px;*/
 	font-size:25px;
 	font-size:2.5rem;
@@ -631,10 +585,11 @@ ul li,ol li {
 	}
 }
 .slide-4 .e-text {
+	font-family:  "Nanum Gothic", NanumGothic, 나눔고딕, 돋움;
 	width: 250px;
 	/*height: 500px;*/
 	/*margin-bottom: 20px;*/
-	color:#999999;
+	color:#828282;
 	font-size:13px;
 	font-size:1.3rem;
 	text-align: justify;
@@ -646,7 +601,7 @@ ul li,ol li {
 		width:500px;
 		font-size:18px;
 		font-size:1.8rem;
-		text-align: justify;
+		text-align: center;
 		line-height:22px;
 		line-height:2.2rem
 	}
@@ -657,14 +612,14 @@ ul li,ol li {
 		width:1000px;
 		font-size:20px;
 		font-size:2rem;
-		text-align:justify;
+		text-align:center;
 		line-height:26px;
 		line-height:2.6rem
 	}
 }
 
 
-/*교수인사말*/
+/*---------------------------------------교수인사말*/
 .slide-5 {
 	display: table;
 	background-color:#ffffff;
@@ -689,7 +644,7 @@ ul li,ol li {
 		width:100px;
 		/*margin:0 auto;*/
 		/*margin-top:100px;*/
-		margin-bottom:40px;
+		margin-bottom:30px;
 		font-size:20px;
 		font-size:2rem
 	}
@@ -699,7 +654,7 @@ ul li,ol li {
 		width:300px;
 		/*margin:0 auto;*/
 		/*margin-top:300px;*/
-		margin-bottom:40px;
+		margin-bottom:30px;
 		font-size:20px;
 		font-size:2rem
 	}
@@ -715,7 +670,7 @@ ul li,ol li {
 	/*margin-top: 20px;*/
 	margin-bottom: 30px;
 	text-align:center;
-	font-family:"Lato",sans-serif;
+	font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
 	/*letter-spacing:2px;*/
 	font-size:25px;
 	font-size:2.5rem;
@@ -745,17 +700,18 @@ ul li,ol li {
 	}
 }
 .slide-5 .e-text {
-	width: 250px;
-	margin-bottom: 10px;
-	color:#999999;
+	font-family:  "Nanum Gothic", NanumGothic, 나눔고딕, 돋움, "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	width: 235px;
+	/*margin-bottom: 10px;*/
+	color:#828282;
 	font-size:13px;
 	font-size:1.3rem;
-	text-align: left;
+	text-align: justify;
 	margin:0 auto;
 }
 @media (min-width: 768px) {
 	.slide-5 .e-text{
-		margin-bottom: 10px
+		/*margin-bottom: 10px;*/
 		width:500px;
 		font-size:18px;
 		font-size:1.8rem;
@@ -766,8 +722,8 @@ ul li,ol li {
 }
 @media (min-width: 992px) {
 	.slide-5 .e-text{
-		margin-bottom:30px;
-		width:1100px;
+		/*margin-bottom:8px;*/
+		width:1050px;
 		font-size:20px;
 		font-size:2rem;
 		text-align: center;
@@ -776,8 +732,9 @@ ul li,ol li {
 	}
 }
 .slide-5 .e-subtext {
+	font-family:  "Nanum Gothic", NanumGothic, 나눔고딕, 돋움, "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	width: 250px;
-	/*margin-bottom: 20px;*/
+	margin-top: 10px;
 	color:#999999;
 	font-size:13px;
 	font-size:1.3rem;
@@ -787,6 +744,7 @@ ul li,ol li {
 @media (min-width: 768px) {
 	.slide-5 .e-subtext{
 		width:500px;
+		margin-top: 10px;
 		font-size:15px;
 		font-size:1.5rem;
 		text-align: center;
@@ -795,7 +753,7 @@ ul li,ol li {
 	}
 }
 
-/*coming soon*/
+/*---------------------------------------coming soon*/
 .slide-6 {
 	display: table;
 	background-color: #3b4b5a;
