@@ -261,6 +261,7 @@ ul li,ol li {
 }
 @media (min-width: 768px) {
 	.slide-1 .date-text {
+		margin-bottom: 100px;
 		/*margin-top:150px;*/
 	}
 }
@@ -292,7 +293,7 @@ ul li,ol li {
 @media (min-width: 992px) {
 	.slide-1 .opening {
 		margin-top: 30px;
-		padding-left: 80px;
+		padding-left: 100px;
 		text-align:left;
 		font-size:20px;
 		font-size:2rem;
@@ -344,14 +345,14 @@ ul li,ol li {
 		margin-top:120px;
 	}
 }
-/* s : 전시장소 설명 */
+/* s : 전시장소 설명 -------------- 중앙정렬안됨*/   
 .slide-2 ul.location-text {
     list-style: none;
-	width: 40%;
+	width: 50%;
     margin-left: auto;
 	margin-right: auto;
-	margin-bottom:8px;
-    padding-left: 0;
+	margin-bottom:3px;
+    /*padding-left: 0;*/
 	color:#3c474d;
 	font-family: "Nanum Gothic", NanumGothic, 나눔고딕, 돋움;
 	font-size:13px;
@@ -364,14 +365,14 @@ ul li,ol li {
 }
 @media (min-width: 768px) {
 	.slide-2 ul.location-text li {
-		font-size:18px;
+		font-size:16px;
 		line-height:22px;
 	}
 }
 @media (min-width: 992px) {
 	.slide-2 ul.location-text li {
 		text-align: left;
-		font-size:20px;
+		font-size:18px;
 		line-height:26px;
 	}
 }
@@ -403,7 +404,7 @@ ul li,ol li {
 .slide-3 .date-title{
 	color: #f9bf21;
 	/*margin-top: 30px;*/
-	margin-bottom:20px;
+	margin-bottom:15px;
 	text-align:center;
 	font-weight:700px;
 	font-size:15px;
@@ -415,7 +416,7 @@ ul li,ol li {
 		width:100px;
 		margin:0 auto;
 		/*margin-top:100px;*/
-		margin-bottom:30px;
+		margin-bottom:20px;
 		font-size:20px;
 		font-size:2rem;
 	}
@@ -425,7 +426,7 @@ ul li,ol li {
 		width:300px;
 		margin:0 auto;
 		/*margin-top:300px;*/
-		margin-bottom:40px;
+		margin-bottom:30px;
 		font-size:20px;
 		font-size:2rem
 	}
@@ -439,7 +440,7 @@ ul li,ol li {
 }
 .slide-3 .abouttitle {
 	color: #5a6672;
-	margin-top: 20px;
+	margin-top: 15px;
 	margin-bottom: 30px;
 	text-align:center;
 	font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -467,7 +468,7 @@ ul li,ol li {
 .slide-3 .e-text {
 	width: 235px;
 	margin:0 auto;
-	margin-bottom:8px;
+	/*margin-bottom:8px;*/
 	color:#828282;
 	font-family: "Nanum Gothic", NanumGothic, 나눔고딕, 돋움, "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size:13px;
@@ -479,8 +480,8 @@ ul li,ol li {
 @media (min-width: 768px) {
 	.slide-3 .e-text{
 		width:500px;
-		font-size:18px;
-		font-size:1.8rem;
+		font-size:16px;
+		/*font-size:1.6rem;*/
 		text-align: center;
 		line-height:22px;
 		line-height:2.2rem
@@ -488,31 +489,32 @@ ul li,ol li {
 }
 @media (min-width: 992px) {
 	.slide-3 .e-text{
-/*		margin-bottom:5px;*/
+		margin-bottom:50px;
 		width:1000px;
-		font-size:20px;
-		font-size:2rem;
+		font-size:18px;
+		/*font-size:2rem;*/
 		text-align: center;
 		line-height:26px;
 		line-height:2.6rem
 	}
 }
-/*---------------------------------------졸준위 인사말*/
-.slide-4 img{
+/*---------------------------------------졸준위 인사말  수정해야함 중앙정렬안됨 */
+.slide-4 img{  
 	position: absolute;
-	/*width:auto;
-	height: auto;*/
-	/*display: block;*/
 	bottom: 0;
-	/*left: 0;*/
-	/*right: 0;*/
 	/*max-height: 100%;*/
 	max-width: 100%;
-	margin:0 auto;
-	margin-bottom:0;
-	margin-left: 0;
-	vertical-align: middle; 
+	/*margin:0 auto;*/
+	/*vertical-align: center; */
+	display: table;
+	display: table-cell;
+	vertical-align: middle;
+	margin-left: auto;
+	margin-right: auto;
 	display: inline-block;
+}
+.slide-4 {
+	background-color: #dfdce1;
 }
 .slide-4 .date-title{
 	color: #f9bf21;
@@ -591,16 +593,16 @@ ul li,ol li {
 	/*margin-bottom: 20px;*/
 	color:#828282;
 	font-size:13px;
-	font-size:1.3rem;
+	/*font-size:1.3rem;*/
 	text-align: justify;
 	margin:0 auto;
 
 }
 @media (min-width: 768px) {
 	.slide-4 .e-text{
-		width:500px;
-		font-size:18px;
-		font-size:1.8rem;
+		width:800px;
+		font-size:16px;
+		/*font-size:1.8rem;*/
 		text-align: center;
 		line-height:22px;
 		line-height:2.2rem
@@ -609,9 +611,9 @@ ul li,ol li {
 @media (min-width: 992px) {
 	.slide-4 .e-text{
 		/*margin-bottom:30px;*/
-		width:1000px;
-		font-size:20px;
-		font-size:2rem;
+		width:1050px;
+		font-size:18px;
+		/*font-size:2rem;*/
 		text-align:center;
 		line-height:26px;
 		line-height:2.6rem
@@ -713,8 +715,8 @@ ul li,ol li {
 	.slide-5 .e-text{
 		/*margin-bottom: 10px;*/
 		width:500px;
-		font-size:18px;
-		font-size:1.8rem;
+		font-size:16px;
+		/*font-size:1.8rem;*/
 		text-align: center;
 		line-height:22px;
 		line-height:2.2rem
@@ -723,9 +725,9 @@ ul li,ol li {
 @media (min-width: 992px) {
 	.slide-5 .e-text{
 		/*margin-bottom:8px;*/
-		width:1050px;
-		font-size:20px;
-		font-size:2rem;
+		width:1000px;
+		font-size:18px;
+		/*font-size:2rem;*/
 		text-align: center;
 		line-height:26px;
 		line-height:2.6rem
@@ -736,18 +738,20 @@ ul li,ol li {
 	width: 250px;
 	margin-top: 10px;
 	color:#999999;
-	font-size:13px;
-	font-size:1.3rem;
+	font-size:12px;
+	/*font-size:1.3rem;*/
 	text-align: right;
 	margin:0 auto;
 }
 @media (min-width: 768px) {
 	.slide-5 .e-subtext{
 		width:500px;
+		margin-bottom: 50px;
 		margin-top: 10px;
-		font-size:15px;
-		font-size:1.5rem;
+		font-size:14px;
+		/*font-size:1.5rem;*/
 		text-align: center;
+
 		/*line-height:22px;
 		line-height:2.2rem*/
 	}
