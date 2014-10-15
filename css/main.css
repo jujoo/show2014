@@ -39,17 +39,17 @@ b {
 	font-weight:700;
 }
 
-ul,ol {
+/*ul,ol {
 	margin-bottom:20px;
 	padding-left:20px;
 	font-size:16px;
 	font-size:1.6rem
 }
-
-ul li,ol li {
+*/
+/*ul li,ol li {
 	margin:5px 0
 }
-
+*/
 .main {
 	height: 100%;
 }
@@ -180,14 +180,12 @@ ul li,ol li {
 /*---------------------------------------전시일정*/
 .slide-1 {
 	display: table;
+	background-color:#3b4b5a;
 }
 .slide-1 .container {
 	display: table-cell;
 	vertical-align: middle;
 	/*padding-bottom: 100px;*/
-}
-.slide-1 {
-	background-color:#3b4b5a;
 }
 .slide-1 .date-title{
 	color: #f9bf21;
@@ -348,11 +346,12 @@ ul li,ol li {
 /* s : 전시장소 설명 -------------- 중앙정렬안됨*/   
 .slide-2 ul.location-text {
     list-style: none;
+    /*margin: 0 auto;*/
 	width: 50%;
     margin-left: auto;
 	margin-right: auto;
 	margin-bottom:3px;
-    /*padding-left: 0;*/
+    padding-left: 0;
 	color:#3c474d;
 	font-family: "Nanum Gothic", NanumGothic, 나눔고딕, 돋움;
 	font-size:13px;
@@ -506,8 +505,6 @@ ul li,ol li {
 	max-width: 100%;
 	/*margin:0 auto;*/
 	/*vertical-align: center; */
-	display: table;
-	display: table-cell;
 	vertical-align: middle;
 	margin-left: auto;
 	margin-right: auto;
