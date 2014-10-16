@@ -67,7 +67,7 @@ b {
 }
 .home .container .row > div {
 	display: table-cell;
-	width: 100%
+	/*width: 100%*/
 	vertical-align: middle;
 	margin: auto 0;
 }
