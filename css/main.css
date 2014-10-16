@@ -1,4 +1,5 @@
 ﻿/* Google Webfont Raleway 불러오기 */
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,300,600,700,800,900|Pacifico|Lato:300,400);
 /* Icon font Entypo 불러오기 */
 @import url(http://weloveiconfonts.com/api/?family=entypo);
@@ -80,7 +81,6 @@ b {
 	display:block;
 	margin:0 auto;
 	margin-top:0;
-	/* border: 1px solid red; */
 	box-sizing: border-box;
 }
 /* 스마트폰 미디어쿼리 */
@@ -253,7 +253,7 @@ b {
 }
 @media screen and (max-width: 30.6em) {
 	.slide-1 .date-text {
-		width:300px;
+		/*width:300px;*/
 		height:auto;
 	}
 }
@@ -273,7 +273,7 @@ b {
 .slide-1 .opening{
 	margin-top: 50px;
 	color: #dfdfdf;
-	padding-left: 20px;
+	/*padding-left: 20px;*/
 	margin-bottom:5px;
 	text-align:center;
 	font-family:"Lato",sans-serif;
@@ -307,7 +307,6 @@ b {
 .slide-2 .container {
 	display: table-cell;
 	vertical-align: middle;
-	/*padding-bottom: 100px;*/
 }
 .slide-2 img {
 	/*margin:90px auto 0px;*/
@@ -315,16 +314,6 @@ b {
 	/*margin-top:90px;*/
 	height:auto;
 	display:block;
-}
-@media screen and (max-width: 30.6em) {
-	.slide-2 img {
-		height:auto;
-	}
-}
-@media (min-width: 768px) {
-	.slide-2 img {
-		/*margin-top: 130px;*/
-	}
 }
 /* 스마트폰 미디어쿼리 */
 @media screen and (max-width: 30.6em) {
@@ -343,9 +332,10 @@ b {
 		margin-top:120px;
 	}
 }
+
 /* s : 전시장소 설명 -------------- 중앙정렬안됨*/   
-.slide-2 ul.location-text {
-    list-style: none;
+.slide-2 .location-text{
+	list-style: none;
     /*margin: 0 auto;*/
 	width: 50%;
     margin-left: auto;
@@ -356,6 +346,39 @@ b {
 	font-family: "Nanum Gothic", NanumGothic, 나눔고딕, 돋움;
 	font-size:13px;
 }
+@media (min-width: 768px) {
+	.slide-2 .location-text{
+		width: 50%;
+	}
+}
+@media (min-width: 992px) {
+	.slide-2 .location-text{
+		width: 50%;
+	}
+}
+@media (min-width: 1200px) {
+	.slide-2 .location-text{
+		width: 30%;
+	}
+}
+
+/*.slide-2 ul.location-text {
+    list-style: none;
+	width: 50%;
+    margin-left: auto;
+	margin-right: auto;
+	margin-bottom:3px;
+    padding-left: 0;
+	color:#3c474d;
+	font-family: "Nanum Gothic", NanumGothic, 나눔고딕, 돋움;
+	font-size:13px;
+}*/
+
+/*@media (min-width: 992px) {
+	.slide-2 ul.location-text{
+		width: 40%;
+	}
+}*/
 /* 스마트폰 미디어쿼리 */
 @media screen and (max-width: 30.6em) {
 	.slide-2 ul.location-text {
