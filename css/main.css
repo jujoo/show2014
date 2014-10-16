@@ -1,5 +1,5 @@
 ﻿/* Google Webfont Raleway 불러오기 */
-/*@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);*/
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,300,600,700,800,900|Pacifico|Lato:300,400);
 /* Icon font Entypo 불러오기 */
 @import url(http://weloveiconfonts.com/api/?family=entypo);
@@ -491,7 +491,7 @@ b {
 	margin:0 auto;
 	/*margin-bottom:8px;*/
 	color:#828282;
-	font-family: "Nanum Gothic", NanumGothic, 나눔고딕, 돋움, "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "Nanum Gothic", NanumGothic, 나눔고딕, 돋움 ;
 	font-size:13px;
 	/*font-size:1.3rem;*/
 
@@ -658,7 +658,7 @@ b {
 	font-weight:700px;
 	font-size:15px;
 	font-size:1.5rem;
-	font-family: "Nanum Gothic", NanumGothic, 나눔고딕, 돋움, "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "Nanum Gothic", NanumGothic, 나눔고딕, 돋움;
 }
 @media (min-width: 768px) {
 	.slide-5 .date-title {
@@ -721,7 +721,7 @@ b {
 	}
 }
 .slide-5 .e-text {
-	font-family:  "Nanum Gothic", NanumGothic, 나눔고딕, 돋움, "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family:  "Nanum Gothic", NanumGothic, 나눔고딕, 돋움;
 	width: 235px;
 	/*margin-bottom: 10px;*/
 	color:#828282;
@@ -753,7 +753,7 @@ b {
 	}
 }
 .slide-5 .e-subtext {
-	font-family:  "Nanum Gothic", NanumGothic, 나눔고딕, 돋움, "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family:  "Nanum Gothic", NanumGothic, 나눔고딕, 돋움;
 	width: 250px;
 	margin-top: 10px;
 	color:#999999;
