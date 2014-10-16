@@ -9,49 +9,15 @@
     //initalize onepage scroll
     $(".main").onepage_scroll_extended({
         sectionContainer: "section",
-		paginationContainer: ".sideMenu"
+        paginationContainer: ".sideMenu"
     });
 
     //cross browser opacity 
     $('.portfolio-item-overlay').css("opacity", 0);
 
-    //MIX it up
-    $('#Grid').mixitup();
-
-    // 구글맵 초기화
-    function initialize() {
-        var mapOptions = {
-            center: new google.maps.LatLng(51.511214, -0.119824),
-            zoom: 12,
-            mapTypeId: google.maps.MapTypeId.ROADMAP,
-            disableDefaultUI :  false
-        };
-        var map = new google.maps.Map(document.getElementById("map-canvas"),
-            mapOptions);
-    }
-
-    google.maps.event.addDomListener(window, 'load', initialize);
-
     //initalize quote slider
     $( '#cbp-qtrotator' ).cbpQTRotator();
 
-    // BigVideo 라이브러리 초기화
-    //var BV = new $.BigVideo({useFlashForFirefox:false});
-    //BV.init();
-    //if (Modernizr.touch) {
-    //    BV.show('img/background1.jpg');
-    //} else {
-    //    BV.show('video/timelapse.mp4',
-    //        {ambient:true,
-    //        doLoop:true,
-    //        altSource:'video/timelapse.ogv'});
-    //}
-
-    //animate in video so you dont see resize
-    setTimeout( function () {
-        $('#big-video-wrap').show().animate({opacity:1});
-
-    }, 4500);
 
     /*=========================================
     =            Start adjustments            =
@@ -144,9 +110,9 @@
         $('.onepage-pagination li:nth-child(4)').children().trigger('click');
     });
 
-	$('.scrolldown').on('click', function(e) {
-		$(".main").moveDown();
-	});
+    $('.scrolldown').on('click', function(e) {
+        $(".main").moveDown();
+    });
     
     $('.onepage-pagination').addClass("animated fadeInUp delay-2");
 
