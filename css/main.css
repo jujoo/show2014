@@ -194,7 +194,7 @@ b {
 	font-weight:700px;
 	font-size:15px;
 	font-size:1.5rem;
-	font-family:"Nanum Gothic", NanumGothic, 나눔고딕, 돋움;
+	font-family:"Nanum Gothic", NanumGothic, 나눔고딕, 돋움, sans-serif;
 }
 @media (min-width: 768px) {
 	.slide-1 .date-title {
@@ -342,7 +342,7 @@ b {
 	margin-bottom:3px;
     padding-left: 0;
 	color:#3c474d;
-	font-family: "Nanum Gothic", NanumGothic, 나눔고딕, 돋움;
+	font-family: "Nanum Gothic", NanumGothic, 나눔고딕, 돋움, sans-serif;
 	font-size:13px;
 }
 @media (min-width: 768px) {
@@ -430,7 +430,7 @@ b {
 	font-weight:700px;
 	font-size:15px;
 	/*font-size:1.5rem;*/
-	font-family:"Nanum Gothic", NanumGothic, 나눔고딕, 돋움;
+	font-family:"Nanum Gothic", NanumGothic, 나눔고딕, 돋움, sans-serif;
 }
 @media (min-width: 768px) {
 	.slide-3 .date-title {
@@ -491,7 +491,7 @@ b {
 	margin:0 auto;
 	/*margin-bottom:8px;*/
 	color:#828282;
-	font-family: "Nanum Gothic", NanumGothic, 나눔고딕, 돋움 ;
+	font-family: "Nanum Gothic", NanumGothic, 나눔고딕, 돋움,sans-serif ;
 	font-size:13px;
 	/*font-size:1.3rem;*/
 
@@ -543,7 +543,7 @@ b {
 	font-weight:700px;
 	font-size:15px;
 	font-size:1.5rem;
-	font-family: "Nanum Gothic", NanumGothic, 나눔고딕, 돋움 ;
+	font-family: "Nanum Gothic", NanumGothic, 나눔고딕, 돋움, sans-serif ;
 }
 @media (min-width: 768px) {
 	.slide-4 .date-title {
@@ -658,7 +658,7 @@ b {
 	font-weight:700px;
 	font-size:15px;
 	font-size:1.5rem;
-	font-family: "Nanum Gothic", NanumGothic, 나눔고딕, 돋움;
+	font-family: "Nanum Gothic", NanumGothic, 나눔고딕, 돋움, sans-serif;
 }
 @media (min-width: 768px) {
 	.slide-5 .date-title {
@@ -721,7 +721,7 @@ b {
 	}
 }
 .slide-5 .e-text {
-	font-family:  "Nanum Gothic", NanumGothic, 나눔고딕, 돋움;
+	font-family:  "Nanum Gothic", NanumGothic, 나눔고딕, 돋움, sans-serif;
 	width: 235px;
 	/*margin-bottom: 10px;*/
 	color:#828282;
@@ -753,7 +753,7 @@ b {
 	}
 }
 .slide-5 .e-subtext {
-	font-family:  "Nanum Gothic", NanumGothic, 나눔고딕, 돋움;
+	font-family:  "Nanum Gothic", NanumGothic, 나눔고딕, 돋움, sans-serif;
 	width: 250px;
 	margin-top: 10px;
 	color:#999999;
