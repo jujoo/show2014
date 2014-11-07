@@ -1,0 +1,48 @@
+.navbar{
+	width: 100%;
+	height: 100px;
+}
+nav .container-fluid{
+	display: table;
+}
+nav ul .navbar-nav{
+	display: table-cell;
+	vertical-align: middle;
+	margin: auto 0;
+}
+
+nav .container-fluid .navbar-header img {
+	/*width:140px;*/
+	height:auto;
+	display:block;
+	margin:0 auto;
+	/*margin-top:0;*/
+	box-sizing: border-box;
+}
+
+nav ul .dropdown{
+	width: 206px;
+	display: table;
+}
+nav ul li .dropdown-toggle img{
+	display: table-cell;
+	vertical-align: middle;
+	margin: 0 auto;
+	padding: 0;
+}
+.navbar-brand{
+	height: 100px;
+	width: 147px;
+	display: table-cell;
+	vertical-align: middle;
+}
+nav ul .button-nav{
+	width: 206px;
+	display: table;
+}
+nav ul .button-nav img{
+	display: table-cell;
+	vertical-align: middle;
+	margin: 0 auto;
+	padding: 0;
+}
