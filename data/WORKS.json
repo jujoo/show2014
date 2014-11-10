@@ -1226,33 +1226,427 @@
                   }
                   //끝
             ],
-            
+            //-----------------------------------------------------------------------제품---------------------------------------------------------------------------------
             "P" : [
                   {
-                        "WORKID" : "WORK-PVE00P",
-                        "workTitle" : "Lexus LF-XR",
-                        "workDesc" : "2035 Lexus Roadster Concept",
+                        "WORKID" : "WORK-PPB00",
+                        "workTitle" : "모두가 'win win' 할 수 있는 공공 시설물 광고",
+                        "workDesc" : "보행자에게 깨끗한 거리를 돌려주고, 모두에게 도움이 될 수 있는 광고 시스템 제안",
                         "workDetail" : {
                               "workData" : {
-                                    "workFullDesc" : "",
-                                    "category" : "",
-                                    "mainType" : ""
+                                    "workFullDesc" : "현재 인도는 무분별한 광고물로 인해 보행조차 어려운 실정이다.공공 시설물을 이용한 광고를 통해 이를 근본적으로 해결할 수 있는 방안을 제시한다.이는 점주들의  광고 목적을 그대로 유지하면서도 원활한 보행을 가능하게 한다. 뿐만 아니라 지자체의 관리가 손쉽고, 광고 수익을 활용한 유지 보수가 가능하다. 이 시스템의 장점은 기존의 목적을 유지하면서도, 모두에게 이익이 될 수 있는 점이다. 이를  통해 결과적으로 보행자에게 깨끗한 거리를 돌려줄 수 있을 것이다.",
+                                    "category" : "PB"
                               },
                               "profileData" : {
                                     "designers" : [
                                           {
-                                                "nameKO" : "",
-                                                "nameEN" : "",
-                                                "id" : "",
-                                                "email" : "",
-                                                "facebook" : ""
+                                                "nameKO" : "서용민",
+                                                "nameEN" : "Seo, Yongmin",
+                                                "id" : "0848041",
+                                                "email" : "seoym89@gmail.com",
+                                                "facebook" : "https://www.facebook.com/seoym89"
+                                          },
+                                          {
+                                                "nameKO" : "김지영",
+                                                "nameEN" : "Kim, Jiyoung",
+                                                "id" : "1045228",
+                                                "email" : "seoym89@gmail.com",
+                                                "facebook" : "http://www.facebook.com/100003193396623"
+                                          },
+                                          {
+                                                "nameKO" : "정다운",
+                                                "nameEN" : "Jeong, Dawoon",
+                                                "id" : "0848296",
+                                                "email" : "downing3x@gmail.com",
+                                                "facebook" : "http:// www.facebook.com/downing3x"
                                           }
                                     ],
-                                    "chiefName" : "",
-                                    "note" : ""
+                                    "chiefName" : "서용민",
+                                    "note" : "우리 주위에는 보행을 힘들게 하는 것들이 많았다. 그 중 70% 이상을 차지하고 있는 것이 광고물이었다. 광고물을 아예 규제하는 법이 있기는 하지만 제대로 시행이 되지 않고 있는 상황이었다. 무조건적인 규제보다 그 목적을 유지하면서 보행 문제를 해결할 수 있는 방안을 찾고 싶었다."
+                              },
+                              "photoData": {
+                                    "maxPhotoAmount": "4"
+                              }
+                        }
+                  },
+                  {
+                        "WORKID" : "WORK-PPB01",
+                        "workTitle" : "물풍기",
+                        "workDesc" : "쿨링포그 시스템을 적용한 미세먼지 피해 감소",
+                        "workDetail" : {
+                              "workData" : {
+                                    "workFullDesc" : "공기 중에 광범위로 떠다니는 미세먼지를 해결하기에는 현실적으로 어려움이 따른다. 그래서 바닥에 쌓이고 깔려있는 미세먼지가 2차적인 피해를 주는 것을 예방하고자한다.",
+                                    "category" : "PB"
+                              },
+                              "profileData" : {
+                                    "designers" : [
+                                          {
+                                                "nameKO" : "김상훈",
+                                                "nameEN" : "Kim, Sanghun",
+                                                "id" : "0847814",
+                                                "email" : "hun223@nate.com",
+                                                "facebook" : "https://www.facebook.com/kim.sanghun.5?fref=ts"
+                                          },
+                                          {
+                                                "nameKO" : "김민지",
+                                                "nameEN" : "Kim, Minji",
+                                                "id" : "1144964",
+                                                "email" : "alswl0268@nate.com",
+                                                "facebook" : "https://www.facebook.com/minji0268"
+                                          },
+                                          {
+                                                "nameKO" : "이나희",
+                                                "nameEN" : "Lee, Nahui",
+                                                "id" : "1145189",
+                                                "email" : "skgml25@hanmail.net",
+                                                "facebook" : "https://www.facebook.com/nahhhuih?fref=ts"
+                                          }
+                                    ],
+                                    "chiefName" : "김상훈",
+                                    "note" : "필드 리서치를 통한 미세먼지 경로와 미세먼지 위험으로부터 노출이 쉬운 곳을 탐색하여 기존에 있는 전신주에 부착하는 모듈식 시스템을 디자인하였다."
+                              },
+                              "photoData": {
+                                    "maxPhotoAmount": "4"
+                              }
+                        }
+                  },
+                  {
+                        "WORKID" : "WORK-PPB02",
+                        "workTitle" : "Easy Go!",
+                        "workDesc" : "여행객의 짐에 대한 부담감을 덜어주는 택배 시스템 디자인",
+                        "workDetail" : {
+                              "workData" : {
+                                    "workFullDesc" : "발달된 우리나라의 택배시스템을 활용하여 여행객의 이동의 편의를 위한 체계적인 무인 택배시스템을 제안한다. 이를 통해 여행자의 짐에 대한 부담감을 덜어주어 보다 자유롭게 한국을 즐길 수 있도록 한다. 힘들이지 않고 쉽게 가자는 의미로 'Easy Go!'' 우리에게 짐을 맡기고 떠나세요!",
+                                    "category" : "PB"
+                              },
+                              "profileData" : {
+                                    "designers" : [
+                                          {
+                                                "nameKO" : "한승완",
+                                                "nameEN" : "Han, Seungwan",
+                                                "id" : "0848423",
+                                                "email" : "newilove@naver.com",
+                                                "facebook" : "https://www.facebook.com/seungwan.han.9406"
+                                          },
+                                          {
+                                                "nameKO" : "김민정",
+                                                "nameEN" : "Kim, Minjeong",
+                                                "id" : "1045136",
+                                                "email" : "Kskk2929@naver.com",
+                                                "facebook" : "https://www.facebook.com/kimmj.thinking"
+                                          },
+                                          {
+                                                "nameKO" : "이수민",
+                                                "nameEN" : "Lee, Sumin",
+                                                "id" : "1045566",
+                                                "email" : "sham3poo@naver.com"
+                                          },
+                                          {
+                                                "nameKO" : "이세현",
+                                                "nameEN" : "Lee, Saehyun",
+                                                "id" : "1046023",
+                                                "email" : "sehyun0220@naver.com",
+                                                "facebook" : "https://www.facebook.com/sehyun.lee.5"
+                                          }
+                                    ],
+                                    "chiefName" : "한승완",
+                                    "note" : "-"
+                              },
+                              "photoData": {
+                                    "maxPhotoAmount": "4"
+                              }
+                        }
+                  },
+                  {
+                        "WORKID" : "WORK-PPB03",
+                        "workTitle" : "Back to the past",
+                        "workDesc" : "portable D.I.Y Boombox",
+                        "workDetail" : {
+                              "workData" : {
+                                    "workFullDesc" : "간단한 조립과정을 거쳐 색다른 느낌으로 사용할 수 있는 D.I.Y형 붐박스 이다. 합판의 테두리 끼리 결구시키는 방식으로, 별다른 접착요소가 필요하지않다. 스트랩을 사용할 수 있어 이동이 편리하고 나무라는 소재의 특성상 소리를 더욱 자연스럽게 가중시킬 수 있다.",
+                                    "category" : "PB"
+                              },
+                              "profileData" : {
+                                    "designers" : [
+                                          {
+                                                "nameKO" : "한남미",
+                                                "nameEN" : "Han, Nammi",
+                                                "id" : "1045727",
+                                                "email" : "skaal012@hanmail.net",
+                                                "facebook" : "https://www.facebook.com/skaal012"
+                                          },
+                                          {
+                                                "nameKO" : "이지원",
+                                                "nameEN" : "Lee, Jiwon",
+                                                "id" : "1045589",
+                                                "email" : "dlwldnjs222@nate.com",
+                                                "facebook" : "https://www.facebook.com/dlwldnjs222@nate.com"
+                                          }
+                                    ],
+                                    "chiefName" : "한남미",
+                                    "note" : "아날로그적인 감성을 살려 실내와 실외 어디서든 사용가능한 조립형 스피커를 디자인 해 보았다."
+                              },
+                              "photoData": {
+                                    "maxPhotoAmount": "4"
+                              }
+                        }
+                  },
+                  //수정 04
+                  {
+                        "WORKID" : "WORK-PPB05",
+                        "workTitle" : "쓰레기 분리수거 기계를 활용한 극장 내 서비스 디자인",
+                        "workDesc" : "영화관 내 쓰레기 처리 프로세스와 고객 참여 프로모션 기획",
+                        "workDetail" : {
+                              "workData" : {
+                                    "workFullDesc" : "얼마 전 TV에 방영되었을 만큼 극장 내의 위생 상태가 매우 심각하다. 이에 해외 일부 지역에서 사용되고 있는 쓰레기 분리수거 기계를 도입해 고객에게 보상을 하는 방식의 서비스를 제안한다. 이는 자연스레 고객의 자율적 분리수거 참여율을 높이고, 나아가 기업이 지닌 녹색 성장의 의무를 실천하여 긍정적인 기업 이미지 창출에 큰 도움이 될 것이다.",
+                                    "category" : "PB"
+                              },
+                              "profileData" : {
+                                    "designers" : [
+                                          {
+                                                "nameKO" : "조은준",
+                                                "nameEN" : "Jo, Eunjun",
+                                                "id" : "0848342",
+                                                "email" : "piano807@naver.com",
+                                                "facebook" : "https://www.facebook.com/piano807"
+                                          },
+                                          {
+                                                "nameKO" : "김형율",
+                                                "nameEN" : "Kim, Hyungyool",
+                                                "id" : "0847885",
+                                                "email" : "inak4@naver.com",
+                                                "facebook" : "https://www.facebook.com/yeomza"
+                                          },
+                                          {
+                                                "nameKO" : "염준식",
+                                                "nameEN" : "Yeom, Junsik",
+                                                "id" : "0848087",
+                                                "email" : "dajs0848@gmail.com",
+                                                "facebook" : "https://www.facebook.com/yeomza"
+                                          }
+                                    ],
+                                    "chiefName" : "조은준",
+                                    "note" : "현장 조사를 통해 버려지는 쓰레기의 종류와 처리 과정에 대하여 알아보았다. 현재 영화관에서 사용되는 쓰레기 처리 방식의 비효율성에 대해 눈으로 확인할 수 있는 기회가 되었고, 이를 통해 개선되어야 할 점에 대해 알아볼 수 있었다."
+                              },
+                              "photoData": {
+                                    "maxPhotoAmount": "4"
+                              }
+                        }
+                  },
+                  {
+                        "WORKID" : "WORK-PPB06",
+                        "workTitle" : "Measure Hanger",
+                        "workDesc" : "자라는 아이의 키를 재는 기능을 넣은 스탠드 옷걸이",
+                        "workDetail" : {
+                              "workData" : {
+                                    "workFullDesc" : "일반적으로 사용하는 옷걸이로 보이나 전체적으로 나무와 같은 모습에 가지가 뻗어나와있다. 가지를 이용하여 아이의 키를 기록 할 수 있고, 자라는 키의 높이에 따라 여러 가지로 뻗어나가게 된다. 아이의 성장을 나무와 비교하듯 마지막엔 하나의 나무와 같은 형상으로 자신만의 옷걸이가 완성이 된다.",
+                                    "category" : "PB"
+                              },
+                              "profileData" : {
+                                    "designers" : [
+                                          {
+                                                "nameKO" : "남경태",
+                                                "nameEN" : "Nam, Kyoungtae",
+                                                "id" : "0747647",
+                                                "email" : "cjswpskarudx@naver.com",
+                                                "facebook" : "https://www.facebook.com/cjswpskarudxo"
+                                          },
+                                          {
+                                                "nameKO" : "강한구",
+                                                "nameEN" : "Kang, Hangu",
+                                                "id" : "0954517",
+                                                "email" : "kang_khg@naver.com",
+                                                "facebook" : "https://www.facebook.com/kanghangugu"
+                                          },
+                                          {
+                                                "nameKO" : "이동엽",
+                                                "nameEN" : "Lee, Dongyeob",
+                                                "id" : "1054522",
+                                                "email" : "yeobs0215@gmail.com",
+                                                "facebook" : "http://www.facebook.com/yeobs0215"
+                                          }
+                                    ],
+                                    "chiefName" : "남경태",
+                                    "note" : "흔히 사용되는 스텐드 옷걸이지만 아이의 키를 잴 수 있는 기능을 넣어 어린 시절의 추억을 기록함으로써 부모에겐 자식을 향한 사랑을, 아이에겐 추억을 느끼게 하기 위해 이 디자인을 하였다."
+                              },
+                              "photoData": {
+                                    "maxPhotoAmount": "4"
+                              }
+                        }
+                  },
+                  {
+                        "WORKID" : "WORK-PPB07",
+                        "workTitle" : "DADEM",
+                        "workDesc" : "좁은공간을 합리적으로 활용할 수 있는 행거",
+                        "workDetail" : {
+                              "workData" : {
+                                    "workFullDesc" : "싱글족이 생활하는 3~8평의 좁은 공간은, 몇 안 되는 가구만으로도 이동경로가 혼잡해지기 마련이다. 따라서 우리는 그들이 생활하기에는 매우 제한적이며, 답답한 이공간의 문제점을 해소하기 위해, 이제껏 가구가 차지하고 있던 공간을 사람들에게 돌려주는 동시에, 무의미한 공간의 낭비를 최소화시킬 수 있는 디자인을 완성하고자 노력하였다.",
+                                    "category" : "PB"
+                              },
+                              "profileData" : {
+                                    "designers" : [
+                                          {
+                                                "nameKO" : "이주헌",
+                                                "nameEN" : "Lee Juheon",
+                                                "id" : "0747936",
+                                                "email" : "saylove6054@naver.com"
+                                          },
+                                          {
+                                                "nameKO" : "이성미",
+                                                "nameEN" : "Lee, Sungmi",
+                                                "id" : "1144208",
+                                                "email" : "tjdal1992@naver.com",
+                                                "facebook" : "https://www.facebook.com/100003000170659"
+                                          },
+                                          {
+                                                "nameKO" : "정세영",
+                                                "nameEN" : "Jeong, Seyoung",
+                                                "id" : "1145304",
+                                                "email" : "dnjsxlem109@naver.com",
+                                                "facebook" : "https://www.facebook.com/seyoooomi"
+                                          }
+                                    ],
+                                    "chiefName" : "이주헌",
+                                    "note" : "싱글족이 생활하는 3~8평의 좁고 제한적인 공간은 몇 안되는 가구만으로도 이동경로가 혼잡해지는, 그들이 생활하기에 답답한 공간으로 이런 제한적인 공간에서 생활하는 그들의 공간을 가구가 아닌 사람에게 돌려주고자 디자인하였다"
+                              },
+                              "photoData": {
+                                    "maxPhotoAmount": "4"
+                              }
+                        }
+                  },
+                  //리빙디자인
+                  {
+                        "WORKID" : "WORK-PLI00",
+                        "workTitle" : "Unwind",
+                        "workDesc" : "사용자의 용도에 따라 풀어쓰는 수납장",
+                        "workDetail" : {
+                              "workData" : {
+                                    "workFullDesc" : "가구라는 말을 들었을 때 우리가 쉽게 떠올리게 되는 것은, 왠지 딱딱하고 무거운 이미지에 정적이 흐르는 것들이 대부분이며, 현재 판매되고 있는 대부분의 가구들 역시 이러한 느낌을 주는 것들이 지배적이다. 때문에 나는 흔히들 사용하고 익숙한 형태의 가구에, 약간의 유머러스함을 더하여, 보다 가볍고, 부드러우며 유쾌함이 깃든 가구를 디자인을 하려 하였다.",
+                                    "category" : "LI"
+                              },
+                              "profileData" : {
+                                    "designers" : [
+                                          {
+                                                "nameKO" : "이주헌",
+                                                "nameEN" : "Lee Juheon",
+                                                "id" : "0747936",
+                                                "email" : "saylove6054@naver.com"
+                                          }
+                                    ],
+                                    "note" : "기존의 가구들이 재미없고 지루한 교장선생님의 훈화말씀이라면, 나는 처음으로 실습 나온 교생선생님의 첫사랑 이야기와 같은, 재미있고 흥미로운 가구를 디자인하고 싶었다. 기존의 가구들에 흔히 사용되어지는 나무나 철재들 사이에, 쉽게 쓰이지 않았던 새로운 소재를 가미하여, 과하지 않은 농담과 같은 가구디자인이 될 수 있도록 노력했다."
+                              },
+                              "photoData": {
+                                    "maxPhotoAmount": "4"
+                              }
+                        }
+                  },
+                  {
+                        "WORKID" : "WORK-PLI01",
+                        "workTitle" : "Rocking Cradle",
+                        "workDesc" : "부모와 아이가 함께 성장하는 가구",
+                        "workDetail" : {
+                              "workData" : {
+                                    "workFullDesc" : "디지털이 아닌 부모와의 소통을 통한 직접적인 교육으로 아이들이 올바른 성장을 할 수 있게끔 가정에서 부모와 함께 할 수 있는 공간을 만들고, 아이의 성장에 맞게 변하는 가구를 통해 신체성장에 도움이 될 수 있도록 아이와 함께 성장하는 가구를 제안한다.",
+                                    "category" : "LI"
+                              },
+                              "profileData" : {
+                                    "designers" : [
+                                          {
+                                                "nameKO" : "정세영",
+                                                "nameEN" : "Jeong, Seyoung",
+                                                "id" : "1145304",
+                                                "email" : "dnjsxlem109@naver.com",
+                                                "facebook" : "https://www.facebook.com/seyoooomi"
+                                          }
+                                    ],
+                                    "note" : "친구와 밖으로 나와 흙을 만지며 놀이터에서 뛰던 아이들은 집에서 게임을 하며 온라인상에서 친구를 만나고 부모와 눈을 마주보며 함께 이야기하는 아이들의 눈은 스마트폰을 향해있다. 이로 인해 부모와 함께하는 일상에서 배우는 교육을 통한 사회성 발달, 신체발달 등이 현저히 낮게 이루어지고 있는 것을 파악하여 부모와 함께 있고 소통할 수 있는 가구를 디자인하였다."
+                              },
+                              "photoData": {
+                                    "maxPhotoAmount": "4"
+                              }
+                        }
+                  },
+                  {
+                        "WORKID" : "WORK-PLI02",
+                        "workTitle" : "Playable Furniture Design",
+                        "workDesc" : "유아용 놀이가구",
+                        "workDetail" : {
+                              "workData" : {
+                                    "workFullDesc" : "유아기는 신체와 운동 능력의 성장 뿐 아니라 사고력,정서표현과 사회성 등의 발달이 이루어져 이것이 성인으로 성장하는데 큰 영향을 미치게 된다.실내에서 보내는 시간이 많은 요즘 유아가 사용하는 가구도 놀이도구처럼 가지고 놀 수 있게 디자인된다면 유아의 성장발달을 돕고,따로 놀이 기구나 설비를 마련하는 것보다 경제적일 것이라 생각하여 놀이 가구를 디자인했다",
+                                    "category" : "LI"
+                              },
+                              "profileData" : {
+                                    "designers" : [
+                                          {
+                                                "nameKO" : "조문정",
+                                                "nameEN" : "Jo, Moonjung",
+                                                "id" : "0948301",
+                                                "email" : "tk5551@naver.com",
+                                                "facebook" : "http://www.facebook.com/moonjungjo"
+                                          }
+                                    ],
+                                    "note" : "유아가 가구를 이용해서 재미있게 놀 수있게 놀이를 하면서 장식할 수있는 가구를 디자인 했다."
+                              },
+                              "photoData": {
+                                    "maxPhotoAmount": "4"
+                              }
+                        }
+                  },
+                  //운송디자인
+                  {
+                        "WORKID" : "WORK-PTR00",
+                        "workTitle" : "Renault-MLC(magnetic levitation car)",
+                        "workDesc" : "미래의 교통체제의 문제점들을 해결해 줄 새로운 개념의 운송체계",
+                        "workDetail" : {
+                              "workData" : {
+                                    "workFullDesc" : "교통체증은 차가 생기 이레로 해결 되지 않고 있다. 여태 도로를 확장하거나, 교통신호를 효율적으로 개선하여 해결하고 있지만 전문가들은 이와 같은 방법은 미래에 더는 효과가 없을 것이라는 연구결과를 내놓았다. 한국은 세계에서 교통채증이 심한편이 아님에도 불구하고 출퇴근 시간에는 같은거리에 두세배의 시간이 소요된다. 그렇다고 모든 사람이 대중교통을 사용하기에는 자가용이 가지는 이점이 없다. 그래서 새로운 운송수단 개념의 대중교통 자기부상 열차와 자가용을 합친 자기부상 자동차 'MLV'를 제시한다",
+                                    "category" : "TR"
+                              },
+                              "profileData" : {
+                                    "designers" : [
+                                          {
+                                                "nameKO" : "남경태",
+                                                "nameEN" : "Nam, Kyoungtae",
+                                                "id" : "0747647",
+                                                "email" : "cjswpskarudx@naver.com",
+                                                "facebook" : "https://www.facebook.com/cjswpskarudxo"
+                                          }
+                                    ],
+                                    "note" : "처음 컨셉은 대중교통과 자가용을 합쳐서 새로운 개념의 운송체계를 만드는 것이 었는데, 어떤 방식으로 해결을 할까 고민 끝에 현제의 결과가 나오게 되었다."
+                              },
+                              "photoData": {
+                                    "maxPhotoAmount": "4"
+                              }
+                        }
+                  },
+                  {
+                        "WORKID" : "WORK-PTR01",
+                        "workTitle" : "Free Traveler",
+                        "workDesc" : "수륙양용 캠핑트레일러",
+                        "workDetail" : {
+                              "workData" : {
+                                    "workFullDesc" : "캠핑문화는 점점더 발전해나가고 있으며 그에따라 개인으로 캠핑트레일러를 소유하는사람들도 늘어나고 있다. 캠핑도 이제 개성과 개인의 취향에 따라 선택이 가능하며 스타일을 추구한다. 육지를 달리던 트레일러는 물을 만나면 양옆의 날개를 내리고 모터와 프로펠러를 가동시켜 수상캠핑을 즐길 수 있다. 강이나 호수가 많은 우리나라 지형에 알맞는 수륙양용으로 사용 가능한 캠핑트레일러이다.",
+                                    "category" : "TR"
+                              },
+                              "profileData" : {
+                                    "designers" : [
+                                          {
+                                                "nameKO" : "송한솔",
+                                                "nameEN" : "Song, HanSol",
+                                                "id" : "1045414",
+                                                "email" : "6pumpkin9@naver.com",
+                                                "facebook" : "https://www.facebook.com/solleeni"
+                                          }
+                                    ],
+                                    "note" : "현재 캠핑의 문화는 점점 더 발전하고 보편화 되어 가고 있다. 수륙양용 캠핑트레일러를 이용해 이제는 장소에 제약을 받지않고 륙지에서 만이 아닌 물에서 즐기는 흥미롭고 새로운 멀티캠핑 문화를 제시하고자 한다."
+                              },
+                              "photoData": {
+                                    "maxPhotoAmount": "4"
                               }
                         }
                   }
+                  //여기부터 시작
+                  //끝
             ],
             
             "D" : [
