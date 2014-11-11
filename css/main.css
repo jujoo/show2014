@@ -1,0 +1,33 @@
+#Container .mix{
+  display: none;
+}
+
+#Container .mix p {
+  text-align: center;
+}
+
+#Container .mix.D {
+  background: lightyellow;
+}
+
+#Container .mix.P {
+  background: lightblue;
+}
+
+#Container .mix.V {
+  background: pink;
+}
+
+#Container div {
+  width: 470px;
+  height: 300px;
+}
+
+div.filter {
+  display: inline-block;
+  margin: 20px;
+  padding: 5px;
+  color: #fff;
+  background: #000;
+  cursor: pointer;
+}
