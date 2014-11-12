@@ -11,10 +11,15 @@
 //         $( this ).children('div').stop().animate({ opacity: 0 }, 500);
 //     });
 // });
-$(function(){
-    $('#Container').mixItUp();
 
-    $.getJSON("data/WORKS.json", function(json) {
+
+$(function(){
+
+    
+    // json
+    var WORKS = $("#WORKS"); $.getJSON("http://codepen.io/jujoo/pen/emOxRX.js", function(json) {
+    console.log(json);
+      
         $.each(json.result.V, function(i, item) {
             var itemLi = $("<li/>", {
                 "class": "mix VISUAL",
@@ -22,17 +27,21 @@ $(function(){
                 "data-part": "V",
                 "data-id": item.WORKID
             });
-            var thumbSrc = "data/img/V/" + item.WORKID + ".jpg";
+            //var thumbSrc = "data/img/V/" + item.WORKID + ".jpg";
 
             $("<div/>", {
                 "class": "active",
                 html: "<span class=title>" + item.workTitle + "</span><span class=desc>" + item.workDesc + "</span><div class='category V'></div>"
             }).appendTo(itemLi);
             $("<div/>", { "class": "cover" }).appendTo(itemLi);
-            $("<img/>", { "src": thumbSrc }).appendTo(itemLi);
+            //$("<img/>", { "src": thumbSrc }).appendTo(itemLi);
 
             WORKS.append(itemLi);
+          
+
         });
+        // mixitup init
+        WORKS.mixItUp();
     });
 
 });

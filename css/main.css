@@ -1,26 +1,46 @@
-#Container .mix{
+html, body {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+}
+#WORKS .mix{
   display: none;
+  position: relative;
+  border-top: 3px solid #fff;
+  border-left: 3px solid #fff;
+  width: 450px;
+  height: 300px;
 }
 
-#Container .mix p {
-  text-align: center;
-}
-
-#Container .mix.D {
+#WORKS .mix.DIGITAL {
   background: lightyellow;
 }
 
-#Container .mix.P {
+#WORKS .mix.PRODUCT {
   background: lightblue;
 }
 
-#Container .mix.V {
+#WORKS .mix.VISUAL {
   background: pink;
 }
 
-#Container div {
-  width: 470px;
-  height: 300px;
+#WORKS li {
+  /*width: 450px;*/
+  /*height: 300px;*/
+  /*position: absolute;
+  color: #fff;
+  font-family: 'Nanum Gothic';
+  font-size: 18px;
+  font-weight: 400px;
+  text-align: center;*/
+}
+#WORKS li .title{
+  position: absolute;
+  color: #fff;
+  font-family: 'Nanum Gothic';
+  font-size: 25px;
+  font-weight: 350px;
+  text-align: center;
 }
 
 div.filter {
