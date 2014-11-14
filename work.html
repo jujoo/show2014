@@ -4,29 +4,45 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<title>제34회 동아대학교 졸업작품전시회 공식 홈페이지</title>
 	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1" />
-	<link rel="stylesheet" href="css/style_work.css" type="text/css" media="all">
-	<link rel="stylesheet" href="css/bootstrap.min_work.css">
-	<script>
+
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.nav.css" type="text/css" media="all">
+	<link rel="stylesheet" href="css/style.works.css">
+
+	<!-- s : jquery import -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- e : jquery import -->
+
+    <script>
 	document.addEventListener("touchstart", function() {},false);
 	</script>
 </head>
 
-<body>
+<body >
+
+	<!-- s : works -->
+	<ul id="WORKS">
+	</ul>
+	<!-- e : works -->
+
+
+	<!-- s: navigation-->
 	<nav class="navbar navbar-default" role="navigation">
 		<div class="container-fluid">
 			<!-- Brand and toggle get grouped for better mobile display -->
 			<!-- Collect the nav links, forms, and other content for toggling -->
-			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<div class="collapse navbar-collapse text-center" id="bs-example-navbar-collapse-1">
+
 				<ul class="nav navbar-nav">
-					<li class="dropdown active">
+					<li class="dropdown">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown">
 							<img src="img/m_work.png">
 							<!-- <span class="caret"></span> -->
 						</a>
 						<ul class="dropdown-menu" role="menu">
-							<li><a href="#">VISIAL DESIGN</a></li>
-							<li><a href="#">PRODUCT DESIGN</a></li>
-							<li><a href="#">DIGITAL DESIGN</a></li>
+							<li class="filter" data-filter=".VISUAL"><a href="#">VISIAL DESIGN</a></li>
+							<li class="filter" data-filter=".PRODUCT"><a href="#">PRODUCT DESIGN</a></li>
+							<li class="filter" data-filter=".DIGITAL"><a href="#">DIGITAL DESIGN</a></li>
 						</ul>
 					</li>
 
@@ -49,7 +65,7 @@
 						</div>
 					</li>
 					<li class="button-nav">
-						<a href="#">
+						<a href="about.html">
 							<img src="img/m_aboutdid.png">
 						</a>
 					</li>
@@ -59,23 +75,20 @@
 						</a>
 					</li>
 				</ul>
-				
+				<img id="nav-handle" src="img/menuBT.png" />
 			</div><!-- /.navbar-collapse -->
 		</div><!-- /.container-fluid -->
 	</nav>
+	<!-- e: navigation-->
 
+	
+	
+    <script src="js/bootstrap.min.work.js"></script> 
 
-	<!-- Latest compiled and minified CSS -->
-	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css"> -->
+    <script src="js/jquery.nav.js"></script>
 
-	<!-- Optional theme -->
-	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap-theme.min.css"> -->
+    <script src="js/jquery.mixitup.min.js"></script>
+	<script src="js/jquery.works.js"></script>
 
-	<!-- Latest compiled and minified JavaScript -->
-	<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script> -->
-  	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min_work.js"></script>
 </body>
 </html>

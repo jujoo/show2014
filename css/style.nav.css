@@ -1,3 +1,7 @@
+nav{
+	/*position: absolute;*/
+	top: -100px;
+}
 .navbar{
 	width: 100%;
 	height: 100px;
@@ -45,4 +49,9 @@ nav ul .button-nav img{
 	vertical-align: middle;
 	margin: 0 auto;
 	padding: 0;
+}
+
+#nav-handle {
+	position:relative;
+	top: -1px;
 }

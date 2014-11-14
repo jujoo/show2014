@@ -1,0 +1,103 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothicweb.css);
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,300,600,700,800,900|Pacifico|Lato:300,400);
+
+html, body {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  font-family: "Nanum Gothic", NanumGothic, 나눔고딕, 돋움, "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+#WORKS{
+  position: absolute;
+  /*width: 100%;*/
+  /*padding: 0;*/
+}
+#WORKS .mix{
+  display: none;
+  position: relative;
+  margin: 0px 2px;
+  width: 450px;
+  /*width : 23.5%;*/
+  height: 300px;
+  background:rgba(0,0,0,0.2);
+}
+#WORKS .mix.mouseenter{
+  background-color: #000; 
+}
+
+#WORKS .mix.DIGITAL {
+  background: lightyellow;
+}
+
+#WORKS .mix.PRODUCT {
+  background: lightblue;
+}
+
+#WORKS .mix.VISUAL {
+  background: pink;
+}
+
+#WORKS li {
+  
+  /*width: 450px;*/
+  /*height: 300px;*/
+  /*position: absolute;
+  color: #fff;
+  font-family: 'Nanum Gothic';
+  font-size: 18px;
+  font-weight: 400px;
+  text-align: center;*/
+}
+
+#WORKS .mix .cover {
+  height:100%;
+  background: rgba(0, 0, 0, 0.2);
+}
+#WORKS .mix .active .category{
+  position: absolute;
+  font-size: 12px;
+  color: #fff;
+  text-align: center;
+  width: 100%;
+  top: 50px;
+}
+#WORKS .mix .active .titleline{
+  position: absolute;
+  display:block;
+  background: #fff;
+  top: 70px;
+  left: 175px;
+  width: 100px;
+  height: 1px;
+}
+#WORKS .mix .active .title{
+  position: absolute;
+  color: #fff;
+  font-family: 'Nanum Gothic';
+  font-size: 23px;
+  font-weight: 350px;
+  text-align: center;
+  top: 140px;
+  width: 100%;
+}
+#WORKS .mix .active .desc{
+  position: absolute;
+  color: #fff;
+  font-family: 'Nanum Gothic';
+  font-size: 16px;
+  font-weight: 350px;
+  text-align: center;
+  line-height: 16px;
+  top: 180px;
+  width: 100%;
+}
+
+div.filter {
+  display: inline-block;
+  margin: 20px;
+  padding: 5px;
+  color: #fff;
+  background: #000;
+  cursor: pointer;
+}

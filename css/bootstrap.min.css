@@ -962,7 +962,7 @@ textarea.input-group-sm>.form-control,textarea.input-group-sm>.input-group-addon
 @media (min-width:768px){
 	.navbar-nav{float:left;margin:0}
 	.navbar-nav>li{float:left}
-	.navbar-nav>li>a{padding-top:40px;padding-bottom:40px}
+	.navbar-nav>li>a{padding-top:30px;padding-bottom:30px}
 }
 .navbar-form{
 	margin-left:-15px;
