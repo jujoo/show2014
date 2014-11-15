@@ -31,14 +31,14 @@ $(function(){
                 "data-part": "P",
                 "data-id": item.WORKID
             });
-            // var thumbSrc = "data/img/V/" + item.WORKID + ".jpg";
+            var thumbSrc = "data/img/P/" + item.WORKID + ".jpg";
 
             $("<div/>", {
                 "class": "active",
                 html: "<span class=category>" + item.workCategory + "</span><div class='titleline'></div><span class=title>" + item.workTitle + "</span><span class=desc>" + item.workDesc + "</span>"
             }).appendTo(itemLi);
             $("<div/>", { "class": "cover" }).appendTo(itemLi);
-            // $("<img/>", { "src": thumbSrc }).appendTo(itemLi);
+            $("<img/>", { "src": thumbSrc }).appendTo(itemLi);
 
             WORKS.append(itemLi);
         });
@@ -50,14 +50,14 @@ $(function(){
                 "data-part": "D",
                 "data-id": item.WORKID
             });
-            // var thumbSrc = "data/img/V/" + item.WORKID + ".jpg";
+            var thumbSrc = "data/img/D/" + item.WORKID + ".jpg";
 
             $("<div/>", {
                 "class": "active",
                 html: "<span class=category>" + item.workCategory + "</span><div class='titleline'></div><span class=title>" + item.workTitle + "</span><span class=desc>" + item.workDesc + "</span>"
             }).appendTo(itemLi);
             $("<div/>", { "class": "cover" }).appendTo(itemLi);
-            // $("<img/>", { "src": thumbSrc }).appendTo(itemLi);
+            $("<img/>", { "src": thumbSrc }).appendTo(itemLi);
 
             WORKS.append(itemLi);
         });

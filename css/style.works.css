@@ -10,28 +10,23 @@ html, body {
 }
 #WORKS{
   position: absolute;
-  /*width: 100%;*/
+  width: 100%;
   /*padding: 0;*/
 }
 #WORKS .mix{
   display: none;
   position: relative;
-  margin: 0px 2px;
-  width: 450px;
-  /*width : 23.5%;*/
-  height: 300px;
-  background:rgba(0,0,0,0.2);
 }
 #WORKS .mix.mouseenter{
   background-color: #000; 
 }
 
 #WORKS .mix.DIGITAL {
-  background: lightyellow;
+  /*background: lightyellow;*/
 }
 
 #WORKS .mix.PRODUCT {
-  background: lightblue;
+  /*background: lightblue;*/
 }
 
 #WORKS .mix.VISUAL {
@@ -39,20 +34,19 @@ html, body {
 }
 
 #WORKS li {
-  
-  /*width: 450px;*/
-  /*height: 300px;*/
-  /*position: absolute;
-  color: #fff;
-  font-family: 'Nanum Gothic';
-  font-size: 18px;
-  font-weight: 400px;
-  text-align: center;*/
+  display: none;
+  position: absolute;
+  margin: 0px 2px;
+  width: 450px;
+  height: 250px;
+  background:rgba(0,0,0,0.2);
 }
 
 #WORKS .mix .cover {
+  display: block;
   height:100%;
-  background: rgba(0, 0, 0, 0.2);
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
 }
 #WORKS .mix .active .category{
   position: absolute;
@@ -78,7 +72,7 @@ html, body {
   font-size: 23px;
   font-weight: 350px;
   text-align: center;
-  top: 140px;
+  top: 120px;
   width: 100%;
 }
 #WORKS .mix .active .desc{
@@ -89,8 +83,14 @@ html, body {
   font-weight: 350px;
   text-align: center;
   line-height: 16px;
-  top: 180px;
+  top: 160px;
   width: 100%;
+}
+#WORKS .mix img{
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
 }
 
 div.filter {
